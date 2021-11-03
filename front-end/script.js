@@ -73,7 +73,7 @@ updateForm.addEventListener('submit', async (e) => {
   //****************************  SECTION  ********************************* */
   //? WAITING FOR THE RESPONSE OF THE REQUEST
   const response = await request(
-    `https://https://add-remove-data-server.herokuapp.com//user/${id}`,
+    `https://add-remove-data-server.herokuapp.com/user/${id}`,
     'PUT',
     JSON.stringify(inputData),
     {
@@ -102,7 +102,7 @@ deleteForm.addEventListener('submit', async (e) => {
 
   //****************************  SECTION  ********************************* */
   //? SETTING UP THE URL ACCORDING TO THE ID IF SPECIFIED
-  const url = `https://add-remove-data-server.herokuapp.com//user${
+  const url = `https://add-remove-data-server.herokuapp.com/user${
     id ? `/${id}` : 's'
   }`;
   //? WAITING FOR THE RESPONSE OF THE REQUEST
@@ -131,7 +131,7 @@ getForm.addEventListener('submit', async (e) => {
 
   //****************************  SECTION  ********************************* */
   //? SETTING UP THE URL ACCORDING TO THE ID IF SPECIFIED
-  const url = `https://add-remove-data-server.herokuapp.com//user${
+  const url = `https://https://add-remove-data-server.herokuapp.com/user${
     id ? `/${id}` : 's'
   }`;
   //? WAITING FOR THE RESPONSE OF THE REQUEST
