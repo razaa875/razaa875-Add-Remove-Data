@@ -1,0 +1,80 @@
+.form {
+  padding: 20px 50px 40px;
+  border: 1px solid grey;
+  margin: 20px;
+  text-align: center;
+}
+
+#form_delete label,
+#form_get label {
+  width: 30px;
+  margin-left: 20px;
+}
+
+#form_delete input,
+#form_get input {
+  width: 50px;
+}
+
+.form h1 {
+  color: 0.222;
+}
+
+.form div {
+  margin: 10px;
+}
+
+.form label {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+}
+
+.form input {
+  padding: 8px 10px;
+  width: 60%;
+}
+
+.form .buttons {
+  padding: 10px 0 10px 240px;
+  text-align: left;
+}
+
+.form button {
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  transition: all 0.2s;
+}
+
+.form button:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.479);
+}
+
+.form button:active {
+  transform: translateY(-3px);
+  box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.479);
+}
+
+.table {
+  padding: 20px;
+  border: 1px solid grey;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid grey;
+}
